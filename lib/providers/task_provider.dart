@@ -2,7 +2,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:ncmt_kripa/services/firestore/firestore_service.dart';
 
-
 class TaskProvider extends ChangeNotifier {
   final TaskService _taskService = TaskService();
 
@@ -10,14 +9,25 @@ class TaskProvider extends ChangeNotifier {
 
   bool get loading => _loading;
 
-    Stream<QuerySnapshot<Map<String,dynamic>>> get taskStream => _taskService.getTasks();
+  Stream<QuerySnapshot<Map<String, dynamic>>> get taskStream =>
+      _taskService.getTasks();
 
-  Future<void> addTask(String title, String description) async {
+  Future<void> addTask(
+    String title,
+    String description, {
+    DateTime? date,
+    String? time,
+  }) async {
     _loading = true;
     notifyListeners();
 
     try {
-      await _taskService.addTask(title, description);
+      await _taskService.addTask(
+        title,
+        description,
+        date: date,
+        time: time,
+      );
     } finally {
       _loading = false;
       notifyListeners();
@@ -25,12 +35,20 @@ class TaskProvider extends ChangeNotifier {
   }
 
   Future<void> updateTask(
-    String taskId,
-    bool completed,
-  ) async {
+    String taskId, {
+    bool? completed,
+    String? title,
+    String? description,
+    DateTime? date,
+    String? time,
+  }) async {
     await _taskService.updateTask(
       taskId,
-      completed,
+      completed: completed,
+      title: title,
+      description: description,
+      date: date,
+      time: time,
     );
   }
 
