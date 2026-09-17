@@ -29,7 +29,7 @@ class DefaultFirebaseOptions {
         );
       case TargetPlatform.macOS:
         throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
+          'DefaultFireb`aseOptions have not been configured for macos - '
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.windows:
@@ -50,20 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDqVHMKTsH-7S5sSGJdXjb578juJQ5rQjQ',
-    appId: '1:313171258283:web:01607c3297de65d20a80ee',
-    messagingSenderId: '313171258283',
-    projectId: 'todo-bibek',
-    authDomain: 'todo-bibek.firebaseapp.com',
-    storageBucket: 'todo-bibek.firebasestorage.app',
-    measurementId: 'G-ZZ20ENM06B',
+   apiKey: "AIzaSyBkUeQ7hXXHbsQ9AV5qnBMf3nrjjMuUaOA",
+  authDomain: "my-project-ec201.firebaseapp.com",
+  projectId: "my-project-ec201",
+  storageBucket: "my-project-ec201.firebasestorage.app",
+  messagingSenderId: "1048928420802",
+  appId: "1:1048928420802:web:56970c621ed8dd5477cc5b",
+  measurementId: "G-8DMZ85YEF7"
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCXa8sgBjRDFXRQ2DASrJa1MDM7NqVCQDk',
-    appId: '1:313171258283:android:ee1fe7f5bedf8f640a80ee',
-    messagingSenderId: '313171258283',
-    projectId: 'todo-bibek',
-    storageBucket: 'todo-bibek.firebasestorage.app',
+    apiKey: "AIzaSyAg7uNDOUVBHb3AJ4RtuoLVq8rovyyGnMY",
+    appId: "1:1048928420802:android:ddced341d5dba6ed77cc5b",
+    messagingSenderId: "1048928420802",
+    projectId: "my-project-ec201",
+    storageBucket: "my-project-ec201.firebasestorage.app"
   );
 }

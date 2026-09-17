@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ncmt_bibek/services/auth/auth_service.dart';
+import 'package:ncmt_kripa/services/auth/auth_service.dart';
 
 sealed class AuthResult {}
 

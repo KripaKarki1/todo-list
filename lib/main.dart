@@ -1,13 +1,13 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:ncmt_bibek/firebase_options.dart';
-import 'package:ncmt_bibek/providers/auth_provider.dart';
-import 'package:ncmt_bibek/providers/task_provider.dart';
-import 'package:ncmt_bibek/providers/theme_providers.dart';
-import 'package:ncmt_bibek/screens/dashboard.dart';
-import 'package:ncmt_bibek/screens/login_screen.dart';
-import 'package:ncmt_bibek/theme/app_theme.dart';
+import 'package:ncmt_kripa/firebase_options.dart';
+import 'package:ncmt_kripa/providers/auth_provider.dart';
+import 'package:ncmt_kripa/providers/task_provider.dart';
+import 'package:ncmt_kripa/providers/theme_providers.dart';
+import 'package:ncmt_kripa/screens/dashboard.dart';
+import 'package:ncmt_kripa/screens/login_screen.dart';
+import 'package:ncmt_kripa/theme/app_theme.dart';
 import 'package:provider/provider.dart';
 
 void main() async {

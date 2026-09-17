@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "313171258283",
-    "project_id": "todo-bibek",
-    "storage_bucket": "todo-bibek.firebasestorage.app"
+    "project_id": "todo-kripa",
+    "storage_bucket": "todo-kripa.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:313171258283:android:ee1fe7f5bedf8f640a80ee",
         "android_client_info": {
-          "package_name": "com.example.ncmt_bibek"
+          "package_name": "com.example.ncmt_kripa"
         }
       },
       "oauth_client": [],

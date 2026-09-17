@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ncmt_bibek/providers/auth_provider.dart';
-import 'package:ncmt_bibek/providers/theme_providers.dart';
-import 'package:ncmt_bibek/screens/login_screen.dart';
+import 'package:ncmt_kripa/providers/auth_provider.dart';
+import 'package:ncmt_kripa/providers/theme_providers.dart';
+import 'package:ncmt_kripa/screens/login_screen.dart';
 import 'package:provider/provider.dart';
 
 class SettingsScreen extends StatefulWidget {

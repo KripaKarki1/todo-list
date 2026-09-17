@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ncmt_bibek/constants/colors.dart';
-import 'package:ncmt_bibek/providers/auth_provider.dart';
-import 'package:ncmt_bibek/screens/dashboard.dart';
-import 'package:ncmt_bibek/widgets/custom_textformfield.dart';
+import 'package:ncmt_kripa/constants/colors.dart';
+import 'package:ncmt_kripa/providers/auth_provider.dart';
+import 'package:ncmt_kripa/screens/dashboard.dart';
+import 'package:ncmt_kripa/widgets/custom_textformfield.dart';
 import 'package:provider/provider.dart';
 
 class RegistrationScreen extends StatefulWidget {

@@ -6,7 +6,7 @@
     "configurations": [
 
         {
-            "name": "ncmt_bibek",
+            "name": "ncmt_kripa",
             "request": "launch",
             "type": "dart",
             "program": "lib/main.dart"

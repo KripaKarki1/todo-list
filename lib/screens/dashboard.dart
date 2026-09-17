@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:ncmt_bibek/screens/calendar_screen.dart';
-import 'package:ncmt_bibek/screens/focus_screen.dart';
-import 'package:ncmt_bibek/screens/settings_screen.dart';
-import 'package:ncmt_bibek/screens/task_screen.dart';
+import 'package:ncmt_kripa/screens/calendar_screen.dart';
+import 'package:ncmt_kripa/screens/focus_screen.dart';
+import 'package:ncmt_kripa/screens/settings_screen.dart';
+import 'package:ncmt_kripa/screens/task_screen.dart';
 
 class Dashboard extends StatefulWidget {
   const Dashboard({super.key});

@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:ncmt_bibek/services/firestore/firestore_service.dart';
+import 'package:ncmt_kripa/services/firestore/firestore_service.dart';
 
 
 class TaskProvider extends ChangeNotifier {
